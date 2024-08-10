@@ -1,34 +1,14 @@
 # pruebajesttest
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
 ### Run your unit tests
+Probar punto 1 y 2 
 ```
 npm run test:unit
 ```
-
 ### Run your end-to-end tests
+Probar punto 3
 ```
 npm run test:e2e
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Probar deploid en: 
+https://pruebam7-9e798.web.app

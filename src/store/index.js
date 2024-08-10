@@ -1,14 +1,25 @@
-import { createStore } from 'vuex'
-
-export default createStore({
-  state: {
-  },
-  getters: {
+import { createStore } from 'vuex';
+const store = createStore({
+  state() {
+    return {
+      count: 0
+    };
   },
   mutations: {
+    increment(state) {
+      state.count += 1;
+    },
+    decrement(state) {
+      state.count -= 1;
+    }
   },
   actions: {
-  },
-  modules: {
+    increment({ commit }) {
+      commit('increment');
+    },
+    decrement({ commit }) {
+      commit('decrement');
+    }
   }
-})
+});
+export default store;
